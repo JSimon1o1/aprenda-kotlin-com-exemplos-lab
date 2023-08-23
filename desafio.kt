@@ -30,9 +30,9 @@ fun main() {
     
     val formacao = Formacao("Análise e Desenvolvimento de Sistemas - ADS: ", conteudosFormacao)
 
-    val usuario1 = Usuario("Sofia", "sofia@email.com, 999553344")
-    val usuario2 = Usuario("Márcia", "marcia@email.com, 999887667")
-    val usuario3 = Usuario("Tiago", "tiago@email.com, 987544566")
+     val usuario1 = Usuario("Sofia")
+    val usuario2 = Usuario("Márcia")
+    val usuario3 = Usuario("Tiago")
     
     formacao.matricular(usuario1)
     formacao.matricular(usuario2)
